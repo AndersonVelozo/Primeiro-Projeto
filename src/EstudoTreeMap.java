@@ -25,5 +25,17 @@ public class EstudoTreeMap {
         System.out.println("Primeira chave: " + notasAlunos.firstKey());
         System.out.println("Última chave: " + notasAlunos.lastKey());
 
+
+
+        int count = 1;
+
+        while (count <= 3) {
+
+            System.out.println("Contagem: " + count);
+
+            count++;
+
+        }
+
     }
 }
