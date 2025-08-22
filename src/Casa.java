@@ -15,5 +15,22 @@ public class Casa {
         //chamada da função (metodo) ordem;
         casa.construir();
         casa.pintar();
+
+        casa.mudarCorParede("Cinza");
+
+        casa.alterarCaracteristicas(100, 3, 5, "Madeira");
+
+        int resultado = casa.somarMetragem();
+        System.out.println(resultado);
+
+        PlantaCasa casaVizinho = new PlantaCasa();
+        casaVizinho.metragem = 200;
+        casaVizinho.material = "Tijolo";
+        casaVizinho.numeroBanheiros = 2;
+        casaVizinho.numeroQuartos = 5;
+        casaVizinho.cor = "Azul";
+
+        casaVizinho.construir();
+        casaVizinho.pintar();
     }
 }
