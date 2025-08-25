@@ -4,11 +4,11 @@ public class PlantaCasa implements Construcao{
 
         //Atributos
 
-        int metragem;
-        int numeroQuartos;
-        int numeroBanheiros;
-        String cor;
-        String material;
+        public int metragem;
+        public int numeroQuartos;
+        public int numeroBanheiros;
+        public String cor;
+        public String material;
 
         public void construir() {
             System.out.println("A casa foi construida, as caracteristicas são: ");
