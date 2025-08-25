@@ -1,4 +1,6 @@
-public class PlantaCasa {
+package etapaConstrucao;
+
+public class PlantaCasa implements Construcao{
 
         //Atributos
 
@@ -37,5 +39,21 @@ public class PlantaCasa {
         construir();
     }
 
+    //anotação
 
+    @Override
+    public void contruir() {
+
+    }
+
+    @Override
+    public void pintar(String cor) {
+            System.out.println("Pintando a casa com a cor " + cor);
+
+    }
+
+    @Override
+    public int calcularCustoConstrucao(int custoPorMetro) {
+        return metragem + custoPorMetro;
+    }
 }
