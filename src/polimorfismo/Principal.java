@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class principal {
+public class Principal {
     public static void main(String[] args){
         int sabaoPo = 1;
         int mamao = 2;
@@ -15,5 +15,8 @@ public class principal {
         int total = Calculadora.somar(sabaoPo, mamao);
         double totalDouble = Calculadora.somar(sabonete, arroz);
         Integer totalInteger = Calculadora.somar(batata, cenoura, melancia);
+
+        Carro fusca = new Carro();
+        fusca.mover();
     }
 }
